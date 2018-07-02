@@ -14,6 +14,9 @@ public class Game extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
 	State gameState = new State();
+	public final int WIDTH = 700;
+	public final int HEIGHT = 540;
+	
 	public Game() {
 		
 		JFrame gameFrame =  new JFrame();
@@ -22,7 +25,7 @@ public class Game extends JFrame {
 		
 		//Main Game Frame settings
 		gameFrame.setTitle("Future Noir");
-		gameFrame.setSize(700,540);
+		gameFrame.setSize(WIDTH,HEIGHT);
 		gameFrame.setLocation(400,220);
 		gameFrame.setLayout(null);
 		gameFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
