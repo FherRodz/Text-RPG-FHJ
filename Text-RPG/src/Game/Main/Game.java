@@ -2,7 +2,6 @@ package Game.Main;
 import javax.swing.JFrame;
 
 import Game.Level.States.GameComponent;
-import Game.Level.States.StartMenu;
 import Game.Level.States.State;
 
 public class Game extends JFrame {

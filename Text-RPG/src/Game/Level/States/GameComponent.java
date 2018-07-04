@@ -21,7 +21,6 @@ public class GameComponent extends JPanel{
 	State gameState = new State();
 	
 	//Game Assets
-	StartMenu start = new StartMenu();
 	JPanel buttonsPanel = new JPanel();
 	JPanel titlePanel = new JPanel();
 	JPanel readyTextPanel = new JPanel();
