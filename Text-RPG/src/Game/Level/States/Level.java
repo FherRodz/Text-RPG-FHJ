@@ -7,7 +7,6 @@ public class Level {
 	protected Item[] items;
 	
 	
-	public Level() {
-		
-	}
+	
+	
 }

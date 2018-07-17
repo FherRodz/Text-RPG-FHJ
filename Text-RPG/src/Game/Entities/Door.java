@@ -1,9 +1,11 @@
 package Game.Entities;
 public class Door extends Item{
 
-	public Door(int ID, String description, String vulnerability, String type, int size, int HP) {
-		super(ID, description, vulnerability, type, size, HP);
-		
+	
+	public Door() {
+		setID(1);
+		setType("static item");
+		setHP(1000);
 	}
 
 }

@@ -3,19 +3,11 @@ package Game.Entities;
 public class Item {
 	protected int ID;
 	protected String description;
-	protected String vulnerability;
-	protected String type;
-	protected int size;
+	protected int vulnerability;  //-1 = fire, 0 = water\\
+	protected String type;  //-1 = static, 0 = usable\\
+	protected int size;		//-1 = small, 0 = medium, 1 = large\\
 	protected int HP;
-	
-	public Item(int ID, String description, String vulnerability, String type, int size, int HP) {
-		this.ID = ID;
-		this.description = description;
-		this.vulnerability = vulnerability;
-		this.type = type;
-		this.size = size;
-		this.HP = HP;
-	}
+
 
 	//GETTERS & SETTERS
 	public int getID() {
@@ -34,11 +26,11 @@ public class Item {
 		this.description = description;
 	}
 
-	public String getVulnerability() {
+	public int getVulnerability() {
 		return vulnerability;
 	}
 
-	public void setVulnerability(String vulnerability) {
+	public void setVulnerability(int vulnerability) {
 		this.vulnerability = vulnerability;
 	}
 
